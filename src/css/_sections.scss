@@ -1,0 +1,19 @@
+.featured__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.featured__image {
+  max-width: 100%;
+}
+
+.featured__text {
+  text-align: center;
+  font-size: 38px;
+  font-style: italic;
+  line-height: 1.2em;
+  color: #ff70b5;
+  margin-top: 50px;
+}

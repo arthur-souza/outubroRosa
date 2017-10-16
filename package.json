@@ -6,7 +6,8 @@
   "author": "Arthur Souza <arthur@arthursouza.com.br>",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "4.0.0-beta",
+    "fullpage.js": "^2.9.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",

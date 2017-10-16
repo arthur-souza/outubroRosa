@@ -4,10 +4,11 @@ const plugin = require('gulp-load-plugins')();
 const files = {
   js: [
     './node_modules/jquery/dist/jquery.min.js',
-    './node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+    './node_modules/fullpage.js/dist/jquery.fullpage.min.js',
     './src/js/script.js'
   ],
   css: [
+    './node_modules/fullpage.js/dist/jquery.fullpage.min.css',
     './src/css/style.scss'
   ],
   images: [
@@ -17,7 +18,7 @@ const files = {
 
 const sassBasePath = [
   './src/css/',
-  './node_modules/bootstrap-sass/assets/stylesheets'
+  './node_modules/bootstrap/scss/'
 ];
 
 gulp.task('js', () => {

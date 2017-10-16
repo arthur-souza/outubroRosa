@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+  background: #ffffff;
+}
+
+.header__nav__list {
+  @extend .nav;
+  @extend .justify-content-center;
+  text-align: center;
+}
+
+.header__nav__list__item {
+  @extend .nav-item;
+
+  a {
+    @extend .nav-link;
+    color: #bb387d;
+    font-style: italic;
+    transition: all ease-out 0.3s;
+  }
+
+  &.active {
+    a {
+      color: #ffffff;
+      background: #bb387d;
+    }
+  }
+}
