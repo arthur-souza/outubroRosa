@@ -4,6 +4,7 @@ const plugin = require('gulp-load-plugins')();
 const files = {
   js: [
     './node_modules/jquery/dist/jquery.min.js',
+    './node_modules/fullpage.js/vendors/scrolloverflow.min.js',
     './node_modules/fullpage.js/dist/jquery.fullpage.min.js',
     './src/js/script.js'
   ],
