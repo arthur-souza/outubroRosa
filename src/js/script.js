@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 
 	jQuery('#fullpage').fullpage({
     paddingTop: '40px',
-    sectionsColor: ['#ffffff', '#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+    sectionsColor: ['#ffffff', '#f18889', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
     anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
     menu: '.header__nav__list',
     scrollOverflow: true
