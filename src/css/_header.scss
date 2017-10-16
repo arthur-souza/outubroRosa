@@ -38,7 +38,8 @@
   box-shadow: 0 3px 10px rgba(0,0,0,.2);
   transition: all linear 0.3s;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   @include media-breakpoint-up(lg) {
     position: relative;
@@ -50,7 +51,6 @@
 }
 
 .header__nav__list {
-  overflow: auto;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;

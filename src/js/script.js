@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+
 	jQuery('#fullpage').fullpage({
     paddingTop: '40px',
     sectionsColor: ['#ffffff', '#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
